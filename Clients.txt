@@ -1,6 +1,0 @@
-
-THE FOLLOWINGS CLIENTS ARE :- 
-
-{"name":"Rahul Batra ","gender":"Male ","age":"18","mobile":"95XXXX712"}
-{"name":"Suhani Shah","gender":"23","age":"female","mobile":"88XX123"}
-{"name":"Aaditya Sharma","gender":"male","age":"18","mobile":"957575486525"}
