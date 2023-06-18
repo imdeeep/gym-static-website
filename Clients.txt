@@ -1,6 +1,6 @@
 
 THE FOLLOWINGS CLIENTS ARE :- 
 
-{"name":"Mandeep Yadav ","gender":"Male ","age":"18","mobile":"9575754712"}
-{"name":"Suhani Shah","gender":"23","age":"female","mobile":"8827270123"}
-{"name":"Priyam Sharma","gender":"male","age":"18","mobile":"957575486525"}
+{"name":"Rahul Batra ","gender":"Male ","age":"18","mobile":"95XXXX712"}
+{"name":"Suhani Shah","gender":"23","age":"female","mobile":"88XX123"}
+{"name":"Aaditya Sharma","gender":"male","age":"18","mobile":"957575486525"}
