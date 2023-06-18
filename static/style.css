@@ -1,0 +1,237 @@
+    /* CSS RESET  */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    /* Use this for setting images if you want relodig background  */
+    body {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-image: url(images/bag.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode:multiply;
+        background-size: cover;
+        height: 1000px;
+      }
+
+    @font-face {
+        font-family: mainfont;
+        src: url(mainfont.ttf);
+    }
+
+    @font-face {
+        font-family: Balthazar;
+        src: url(Balthazar-Regular.ttf);
+    }
+    #navbar {
+        display: flex;
+        /* border: 2px solid rgb(255, 255, 255); */
+        padding: 23px 0px;
+        top: 0px;
+        background-color: rgba(255, 255, 255, 0.158);
+        position: sticky; 
+        transition-property: background-color;
+        transition-duration: 0.6s;
+        transition-timing-function: ease-out;
+
+    }
+
+    #navbar:hover {
+        background-color: rgb(217 217 219 / 61%);
+    }
+
+    #navbar:hover a {
+        color: rgb(0, 0, 0);
+        /* Change the color to your desired hover color */
+        text-shadow: none;
+
+    }
+
+    #navbar:hover #logo ul a {
+        text-shadow: 3px 2px rgba(255, 255, 255, 0.356);
+    }
+
+    #navbar:hover button {
+        color: black;
+    }
+
+    #logo ul a {
+        position: absolute;
+        margin-left: 22px;
+        top: 14px;
+        letter-spacing: 2px;
+        font-family: mainfont;
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.582);
+        font-size: 2.3rem;
+        text-decoration: none;
+    }
+
+    #midcontents {
+        /* display: flex; */
+        margin: auto;
+    }
+
+    #midcontents ul {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    #midcontents ul li {
+        margin: 0px 48px;
+        color: white;
+        font-family: Balthazar;
+    }
+
+    #midcontents ul li:hover {
+        text-transform: uppercase;
+    }
+
+    #contact ul li a {
+        border: white;
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.26);
+        color: rgb(255, 255, 255);
+        position: absolute;
+        right: 30px;
+        top: 15px;
+        padding: 10px;
+        font-weight: bold;
+        font-family: Balthazar; 
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+    }
+
+    li{
+        list-style: none;
+    }
+    
+    #contact ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.521);
+    }
+
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    /* FORM SECTION  */
+    #form {
+        width: 70%;
+        height: 700px;
+        background-color: rgba(255, 255, 255, 0.158);
+        margin: auto;
+        border-radius: 30px;
+        margin-top: 75px;
+    }
+
+    /* USE THIS METHOD FOR SETTING BACKGROUND IMAGE IF IMAGE IS ONE AND YOU WANT TO ADD OPACITY AND DONT WANT RELOADING IMAGES */
+
+    /* #form::before {  
+        content: ""; 
+        background: url('/static/bag.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height: 1000px;
+        width: 100%;
+        z-index: -1;
+        opacity: 1;
+
+    }  */
+
+    .inpt {
+        display: flex;
+        margin: auto;
+        background: #00000044;
+        border: none;
+        color: rgb(0, 0, 0);
+        text-shadow: 3px 2px rgba(255, 255, 255, 0.582);
+        letter-spacing: 1px;
+        padding: 20px 240px;
+        margin: 31px auto;
+        font-family: Balthazar;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .btn {
+        display: flex;
+        margin: auto;
+        background: #00000044;
+        padding: 20px 140px;
+        margin: 31px auto;
+        text-align: center;
+        border-radius: 15px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        border: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.582);
+        letter-spacing: 3px;
+        cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 0.5s;
+    }
+
+    .btn:hover {
+        background-color: rgba(255, 255, 255, 0.521);
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+    }
+
+    #copyright {
+        background-color: rgba(0, 0, 0, 0.582);
+        color: white;
+        text-align: center;
+        letter-spacing: 4px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 123px;
+    }
+
+
+
+    /* Utility Classes  */
+    .h-primary {
+        font-size: 3rem;
+        padding: 40px;
+        /* margin-top: 12px; */
+        border: none;
+        padding-top: 56px;
+        color: #ffffffcf;
+        /* font-weight: lighter; */
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.582);
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.527);
+        text-shadow: 3px 2px rgba(0, 0, 0, 0.582);
+    }
+
+    .h-secondary {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 12px;
+        /* text-shadow: 3px 2px rgba(0, 0, 0, 0.445); */
+    }

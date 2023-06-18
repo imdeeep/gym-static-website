@@ -1,0 +1,59 @@
+<!-- Here we use raw html in pug template  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    link(rel='stylesheet', href='/static/style.css')
+    script(src='/static/script.js')
+
+    
+</head>
+
+<body>
+    <nav id="navbar" class="h-secondary">
+        <div id="logo">
+            <ul>
+                <a href="/">HardKnocks</a>
+            </ul>
+        </div>
+
+        <div id="midcontents">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Reviews</a></li>
+                <li><a href="/">About us</a></li>
+            </ul>
+        </div>
+
+        <div id="contact">
+            <ul>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <form action="/" method="post" id="form">
+        <h1 class="h-primary">
+            hello Want to build muscles ? Just join now
+        </h1>
+        <input class="inpt" name="name" type="text" placeholder="Enter your Name">
+        <input class="inpt" name="gender" type="text" placeholder="Enter your Gender">
+        <input class="inpt" name="age" type="text" placeholder="Enter your Age">
+        <input class="inpt" name="mobile" type="text" placeholder="Enter your Mobile no">
+        <button class="btn" (onclick='submitForm()')>SUBMIT</button>
+    </form>
+
+    <div id="copyright">
+        <h3>Copyright © 2023-24 HardKnocks.com . All right reserved</h3>
+    </div>
+    
+
+</body>
+
+</html>

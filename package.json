@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "name": "hard-knock",
+  "version": "1.0.0",
+  "description": "THIS IS A FIRST BACKEND WEBSITE CREATED BY HTML USING IN PUG ENGINE ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mandeep Yadav",
+  "license": "ISC"
+}
